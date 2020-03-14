@@ -10,8 +10,7 @@ salad = ["banana","ranch"]
 
 num =[1,3]
 
-read
-x.read(path,salad, num)
+x.write(path,salad, num)
 
 Output:
 banan00.salad
@@ -22,8 +21,7 @@ ranch01.salad
 
 ranch02.salad
 
-write
-x.write(path)
+x.read(path)
 
 Output: {banana: 1; ranch:3}
 
